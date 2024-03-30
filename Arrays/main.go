@@ -24,4 +24,8 @@ func main() {
 	arr3 = append(arr3, arr4...)
 	fmt.Println(arr3)
 
+	for i, val := range arr {
+		fmt.Printf("i%v and val%v", i, val)
+	}
+
 }
