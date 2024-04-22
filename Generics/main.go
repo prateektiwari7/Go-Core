@@ -5,6 +5,8 @@ import "fmt"
 func main() {
 	var intSlice = []int{1, 2, 3}
 	fmt.Println(sumSlice[int](intSlice))
+
+	
 }
 
 func sumSlice[T int | float32 | float64](slice []T) T {
